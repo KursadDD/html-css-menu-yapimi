@@ -1,0 +1,49 @@
+body{
+    background-image: url(../images/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ust-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.ust-menu a{
+    display: block;
+    width: 200px;
+    color: darkgreen;
+    background-color: bisque;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+.ust-menu a:hover{
+    background-color: chocolate;
+    color: white;
+}
+
+.alt-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+.alt-menu a{
+    display:block;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2px;
+    background-color: black;
+    color: aliceblue;
+    margin-right: 5px;
+}
+.alt-menu li{
+    float: left;
+}
+.alt-menu a:hover{
+    background-color: blue;
+    color: yellow;
+}
